@@ -1,0 +1,63 @@
+:root{
+    --color-fondo: #80afcd;
+    --color-default: ghostwhite;
+    --font-descripcion: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    background-color: var(--color-fondo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 23%;
+    height: 70%;
+    background-image: url("https://images.unsplash.com/photo-1574007557239-acf6863bc375?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.icons{
+    margin-left: 20px;
+    color: var(--color-default);
+    font-size: small;
+}
+
+.icons span{
+    padding: 0 8px 0 3px;
+}
+
+.cardinfo{
+    width: 100%;
+    height: 20%;
+    background: var(--color-default);
+    box-sizing: border-box;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.cardinfo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.cardinfo div{
+    font-size: x-small;
+    font-family: var(--font-descripcion);
+    display: flex;
+    flex-direction: column;
+}
